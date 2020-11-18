@@ -1,0 +1,62 @@
+{
+	"lastname": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "lastname"
+	},
+	"firstname": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "firstname"
+	},
+	"fullname": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "fullname"
+	},
+	"jobtitle": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "jobtitle"
+	},
+	"company": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "company"
+	},
+	"address1_line1": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "address1_line1"
+	},
+	"address1_line2": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "address1_line2"
+	},
+	"address1_line3": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "address1_line3"
+	},
+	"address1_city": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "city"
+	},
+	"address1_postalcode": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "postalcode"
+	},
+	"emailaddress1": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "emailaddress1"
+	},
+	"telephone1": {
+		"toBeMapped": true,
+		"dataType": "string",
+		"label": "telephone1"
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"type": "customAuthorization",
+	"authorizationType": "Bearer",
+	"endpoint": "https://login.microsoftonline.com/<tenant-id>/oauth2/token",
+	"method": "GET",
+	"headers": {
+		"content-type": "application/x-www-form-urlencoded"
+	},
+	"body": {
+		"bodyType": "form",
+		"bodyParams": {
+			"grant_type": "password",
+			"client_id": "<client-id>",
+			"resource": "<ms dynamics custom domain url>",
+			"username": "<ms dynamics trial account user id>",
+			"password": "<ms dynamics trial account password>"
+		}
+	},
+    "tokenTarget": "Authorization",
+	"tokenInResponse": "json://access_token",
+	"cacheDuration": {
+		"duration": 5,
+		"timeUnit": "hours"
+	}
+}
+
+Sample:
+{
+	"type": "customAuthorization",
+	"authorizationType": "Bearer",
+	"endpoint": "https://login.microsoftonline.com/c256b951-c85d-4953-831a-56203c9ef254/oauth2/token",
+	"method": "GET",
+	"headers": {
+		"content-type": "application/x-www-form-urlencoded"
+	},
+	"body": {
+		"bodyType": "form",
+		"bodyParams": {
+			"grant_type": "password",
+			"client_id": "ff3b4cc3-d3a3-4972-b446-29dad456474c",
+			"resource": "https://adminjo.crm.dynamics.com",
+			"username": "admin1@joaep.onmicrosoft.com",
+			"password": "Campaign#123"
+		}
+	},
+    "tokenTarget": "Authorization",
+	"tokenInResponse": "json://access_token",
+	"cacheDuration": {
+		"duration": 5,
+		"timeUnit": "hours"
+	}
+}
