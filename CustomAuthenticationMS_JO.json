@@ -16,7 +16,6 @@
 			"password": "<ms dynamics trial account password>"
 		}
 	},
-    "tokenTarget": "Authorization",
 	"tokenInResponse": "json://access_token",
 	"cacheDuration": {
 		"duration": 5,
@@ -43,7 +42,6 @@ Sample:
 			"password": "Campaign#123"
 		}
 	},
-    "tokenTarget": "Authorization",
 	"tokenInResponse": "json://access_token",
 	"cacheDuration": {
 		"duration": 5,
