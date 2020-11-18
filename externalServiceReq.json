@@ -1,0 +1,19 @@
+{
+	"body": {
+		"textMessage": {
+			"toBeMapped": true,
+			"dataType": "string",
+			"label": "textMessage"
+		},
+		"email": {
+			"toBeMapped": true,
+			"dataType": "string",
+			"label": "email"
+		},
+		"subject": {
+			"toBeMapped": true,
+			"dataType": "string",
+			"label": "subject"
+		}
+	}
+}
